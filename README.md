@@ -6,14 +6,16 @@ Requirements
 -
 The minimum requirement by this project template that your Web server supports PHP 7.4.
 
-Usage
+Installation and usage
 -
+      composer install
+      
       yii logger/logger/log                         send default message to default logger
       yii logger/logger/log <message>               send specific <message> to default logger
       yii logger/logger/log-to <logger>             send default message to specific <logger>
       yii logger/logger/log-to <logger> <message>   send specific <message> to specific <logger>
-      yii logger/logger/log-to-all                  send default message to all logers
-      yii logger/logger/log-to-all <message>        send specific <message> to all logers
+      yii logger/logger/log-to-all                  send default message to all loggers
+      yii logger/logger/log-to-all <message>        send specific <message> to all loggers
 
 Configuration
 -
