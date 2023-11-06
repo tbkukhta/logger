@@ -92,6 +92,9 @@ class LoggerController extends Controller
         return $logger->getInstance();
     }
 
+    /**
+     * @param string|null $message
+     */
     protected function setMessage($message)
     {
         $this->message = $message ?? \Yii::$app->params['defaultMessage'];
